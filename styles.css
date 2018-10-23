@@ -18,3 +18,29 @@
     background-position: center;
     background-size: cover;
   }
+  nav {
+
+  }
+
+  nav ul {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px 15px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    background-color: blue;
+
+    font-size: 16px;
+
+    justify-content: space-between;
+
+  }
