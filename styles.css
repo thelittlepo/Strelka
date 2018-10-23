@@ -1,66 +1,84 @@
-  @import "reset.css";
-  @import
-  url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import "reset.css";
+@import
+url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
-  body {
-    color: #fff;
+body {
+  color: #fff;
 
-    font-family: "Fira Mono", monospace;
+  font-family: "Fira Mono", monospace;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  section {
-    height: 80vh;
+section {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
 
-    background-image: url("bg.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  nav {
+  height: 80vh;
 
-  }
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
 
-  nav ul {
-    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  position: absolute;
+  top:20px;
+  right:0;
+  left:0;
 
-    width: 900px;
-    margin: 0 auto;
-    padding: 10px 15px;
+  display: flex;
 
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 15px;
 
-    background-color: blue;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
-    font-size: 16px;
+  background-color: blue;
 
-    justify-content: space-between;
+  font-size: 16px;
 
-  }
-  h1 {
-    display: flex;
+  justify-content: space-between;
 
-    margin: 100px auto;
+}
+.heading {
+  justify-content: center;
+  align-content: center;
 
-    text-align:center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
 
-    font-size: 130px;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 
-    justify-content: center;
-    align-items: center;
-
-  }
-a
-{
+  font-size: 130px;
+}
+a {
   text-decoration: none;
 
   color: white;
-
 }
 a:hover {
   color: black;
+}
+.knopka {
+  padding-bottom: 28px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+
+  font-size: 23px;
+
+}
+.knopka a {
+  background-color: blue;
 }
