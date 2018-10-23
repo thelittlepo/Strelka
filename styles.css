@@ -3,8 +3,18 @@
   url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
   body {
+    color: #fff;
+
     font-family: "Fira Mono", monospace;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  section {
+    height: 80vh;
+
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
   }
